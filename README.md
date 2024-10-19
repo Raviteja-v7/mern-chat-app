@@ -11,9 +11,9 @@ This project is a real-time chat application built using the MERN stack (MongoDB
 - **RESTful APIs**: Implemented APIs for user registration, login, and chat functionalities.
 - **Responsive UI**: A user-friendly interface designed with React, ensuring a seamless experience across devices.
 - **Redux for State Management**: Used Redux to manage global states like user data and chat rooms.
-- **Data Storage**: Efficient data storage using MongoDB to manage user profiles and chat messages.
+- **Data Storage**: Efficient data storage using MongoDB to manage user profiles and chat messages..
 
-## Prerequisites
+## Prerequisites 
 
 Before running the project, ensure you have the following installed:
 
