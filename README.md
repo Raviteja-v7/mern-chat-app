@@ -1,37 +1,28 @@
-# MERN Stack Project: Build and Deploy a Real Time Chat App | JWT, Socket.io
+# MERN Stack Real-Time Chat Application
 
-![Demo App](https://i.ibb.co/fXmZdnz/Screenshot-10.png)
+## Overview
 
-[Video Tutorial on Youtube](https://youtu.be/HwCqsOis894)
+This project is a real-time chat application built using the MERN stack (MongoDB, Express.js, React, Node.js). The application allows users to engage in instant messaging with secure user authentication. It integrates Socket.io for real-time communication and uses JWT (JSON Web Tokens) for secure user sessions. The front end is designed using React with state management handled by Redux, while MongoDB serves as the database for storing user and chat data.
 
-Some Features:
+## Features
 
--   🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
--   🎃 Authentication && Authorization with JWT
--   👾 Real-time messaging with Socket.io
--   🚀 Online user status (Socket.io and React Context)
--   👌 Global state management with Zustand
--   🐞 Error handling both on the server and on the client
--   ⭐ At the end Deployment like a pro for FREE!
--   ⏳ And much more!
+- **Real-Time Messaging**: Integrated Socket.io to enable instant messaging between users.
+- **Secure Authentication**: JWT (JSON Web Tokens) is used for secure user authentication and maintaining sessions.
+- **RESTful APIs**: Implemented APIs for user registration, login, and chat functionalities.
+- **Responsive UI**: A user-friendly interface designed with React, ensuring a seamless experience across devices.
+- **Redux for State Management**: Used Redux to manage global states like user data and chat rooms.
+- **Data Storage**: Efficient data storage using MongoDB to manage user profiles and chat messages.
 
-### Setup .env file
+## Prerequisites
 
-```js
-PORT=...
-MONGO_DB_URI=...
-JWT_SECRET=...
-NODE_ENV=...
-```
+Before running the project, ensure you have the following installed:
 
-### Build the app
+- Node.js
+- MongoDB
+- React.js
+- VS Code (or any other preferred IDE)
 
-```shell
-npm run build
-```
+You can install the necessary dependencies with the following command:
 
-### Start the app
-
-```shell
-npm start
-```
+```bash
+npm install
